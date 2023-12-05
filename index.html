@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CATS</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-size: 10px;
+      background: #000 url("./images/bg3.png") no-repeat top center /cover;
+    }
+    .outer{
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      border-radius: 20px 20px 0 0;
+      margin: 80px auto 0;
+      border-bottom: 20px solid #b41800;
+    }
+    h1{
+      font-size: 1.6rem;
+      color: #b41800;
+      text-align: center;
+    }
+    h1::after{
+      display: block;
+      content: "";
+      height: 3px;
+      width: 80px;
+      background-color: #b41800;
+      margin: 10px auto;
+    }
+    .inner{
+      background-color: #e8e8e8;
+      padding: 30px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <img src="./images/cat.png" alt="고양이 이미지">
+    <h1>CAT</h1>
+    <div class="inner">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fuga soluta aspernatur.
+    </div>
+  </div>
+</body>
+</html>
